@@ -13,13 +13,13 @@
 
 <body>
     {{-- include header --}}
-    @include('layouts.header')
+    <x-layouts.header />
 
     {{-- main content --}}
-    @yield('content')
+    {{$slot}}
 
     {{-- include footer --}}
-    @include('layouts.footer')
+    <x-layouts.footer />
     {{-- Bootstrap JavaScript Libraries --}}
     <script src="{{asset('assets/js/bootstrap-popper.js')}}"></script>
 
