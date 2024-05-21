@@ -20,7 +20,6 @@
         {{$slot}}
     </div>
 
-
     {{-- include footer --}}
     <x-layouts.footer />
     {{-- Bootstrap JavaScript Libraries --}}
