@@ -16,7 +16,9 @@
     <x-layouts.header />
 
     {{-- main content --}}
-    {{$slot}}
+    <div class="justify-content-center contianer-fluid m-5 px-5">
+        {{$slot}}
+    </div>
 
     {{-- include footer --}}
     <x-layouts.footer />

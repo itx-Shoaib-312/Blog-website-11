@@ -7,20 +7,24 @@
     <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
             <li class="nav-item">
-                <a class="nav-link ms-sm-2 mx-lg-3" href="" aria-current="page">Home <span
-                        class="visually-hidden">(current)</span></a>
+                <x-anchor_tag>
+                    Home
+                </x-anchor_tag>
             </li>
             <li class="nav-item">
-                <a class="nav-link ms-sm-2 mx-lg-3" href="" aria-current="page">Categories <span
-                        class="visually-hidden">(current)</span></a>
+                <x-anchor_tag>
+                    Posts
+                </x-anchor_tag>
             </li>
             <li class="nav-item">
-                <a class="nav-link ms-sm-2 mx-lg-3" href="" aria-current="page">About us <span
-                        class="visually-hidden">(current)</span></a>
+                <x-anchor_tag>
+                    About us
+                </x-anchor_tag>
             </li>
             <li class="nav-item">
-                <a class="nav-link ms-sm-2 mx-lg-3" href="" aria-current="page">Contact us <span
-                        class="visually-hidden">(current)</span></a>
+                <x-anchor_tag>
+                    Contact us
+                </x-anchor_tag>
             </li>
         </ul>
         <div class="d-flex my-2 my-lg-0">
