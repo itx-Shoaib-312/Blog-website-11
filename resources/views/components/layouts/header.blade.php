@@ -29,14 +29,14 @@
         </ul>
         <div class="d-flex my-2 my-lg-0">
             @auth
-            <a class="btn btn-outline-warning my-2 my-sm-0" type="submit">
+            <a class="btn btn-outline-warning my-2 my-sm-0" href="{{route('home')}}" type="submit">
                 Dashboard
             </a>
             @else
-            <a class="btn btn-outline-info m-2 my-sm-0" type="submit">
+            <a class="btn btn-outline-info m-2 my-sm-0" href="{{route('login')}}" type="submit">
                 Login
             </a>
-            <a class="btn btn-outline-info m-2 my-sm-0" type="submit">
+            <a class="btn btn-outline-info m-2 my-sm-0" href="{{route('register')}}" type="submit">
                 Register
             </a>
             @endauth
